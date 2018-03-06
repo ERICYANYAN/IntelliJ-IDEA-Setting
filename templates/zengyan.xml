@@ -1,5 +1,6 @@
 <templateSet group="zengyan">
-  <template name="newInstance" value="a" description="单例" toReformat="false" toShortenFQNames="true">
+  <template name="newInstance" value="private static $class$ instance = null;&#10;&#10;    private $class$(){}&#10;&#10;public synchronized static $class$ getInstance() {&#10;    if(instance == null){//懒汉式&#10;        instance = new $class$();&#10;    }&#10;    return instance;&#10;}&#10;" description="单例" toReformat="false" toShortenFQNames="true">
+    <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
@@ -7,6 +8,12 @@
   <template name="getMap" value="Map&lt;$key$,$value$&gt; map = new HashMap&lt;$key$,$value$&gt;();" toReformat="false" toShortenFQNames="true">
     <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="line" value="/**&#10; * &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;$message$&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&#10; */" toReformat="false" toShortenFQNames="true">
+    <variable name="message" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
