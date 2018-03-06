@@ -1,5 +1,12 @@
 <templateSet group="zengyan">
-  <template name="newInstance" value="俺的沙发" description="单例" toReformat="false" toShortenFQNames="true">
+  <template name="newInstance" value="a" description="单例" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="getMap" value="Map&lt;$key$,$value$&gt; map = new HashMap&lt;$key$,$value$&gt;();" toReformat="false" toShortenFQNames="true">
+    <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
