@@ -1,10 +1,28 @@
 <keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
-  <action id="ExternalSystem.ToggleAutoImport">
-    <keyboard-shortcut first-keystroke="shift meta o" />
+  <action id="CopyElement" />
+  <action id="ECTranslation">
+    <keyboard-shortcut first-keystroke="meta i" />
   </action>
   <action id="FixDocComment">
     <keyboard-shortcut first-keystroke="alt slash" />
   </action>
-  <action id="GotoFile" />
+  <action id="ForceStepInto" />
+  <action id="ForceStepOver" />
   <action id="HippieCompletion" />
+  <action id="Move" />
+  <action id="NextDiff" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="meta alt r" />
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
+  <action id="SmartStepInto" />
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f6" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="f8" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f7" />
+  </action>
 </keymap>
