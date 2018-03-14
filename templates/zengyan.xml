@@ -18,11 +18,12 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="net" value=" $service$.$menthod$($args$)&#10;         .compose(mFragment.bindLifecycleAndScheduler())&#10;         .map(new NetErrorHandler&lt;$type$&gt;())&#10;         .subscribeOn(AndroidSchedulers.mainThread())&#10;         .subscribe(response -&gt; {&#10;             callBack.onSuccess(response);&#10;         }, throwable -&gt; {&#10;             if (throwable instanceof RetrofitAPIError) {&#10;                 callBack.onRetrofitFail((RetrofitAPIError) throwable);&#10;             }else {&#10;                 callBack.onFail(throwable);&#10;             }&#10;         });" toReformat="false" toShortenFQNames="true">
+  <template name="net" value=" $service$.$menthod$($args$)&#10;         .compose(mFragment.bindLifecycleAndScheduler())&#10;         .compose(applyLoading())&#10;         .map(new NetErrorHandler&lt;$type$&gt;())&#10;         .subscribeOn(AndroidSchedulers.mainThread())&#10;         .subscribe(response -&gt; {&#10;             $callback$&#10;         }, throwable -&gt; {&#10;            handleError(throwable);&#10;         });" toReformat="false" toShortenFQNames="true">
     <variable name="service" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="menthod" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="callback" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
