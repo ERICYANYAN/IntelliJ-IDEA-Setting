@@ -18,4 +18,12 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="net" value=" $service$.$menthod$($args$)&#10;                    .compose(mFragment.bindLifecycleAndScheduler())&#10;                    .subscribeOn(AndroidSchedulers.mainThread())&#10;                    .subscribe(response -&gt; {&#10;                        if (response.isSuccessful()) {&#10;                            callBack.onSuccess(response.body());&#10;                        } else {&#10;                            callBack.onRetrofitFail(response);&#10;                        }&#10;                    }, throwable -&gt; {&#10;                        callBack.onFail(throwable);&#10;                    });" toReformat="false" toShortenFQNames="true">
+    <variable name="service" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="menthod" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
