@@ -1,5 +1,9 @@
 <keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
+  <action id="AndroidConnectDebuggerAction">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
   <action id="CopyElement" />
+  <action id="Debug" />
   <action id="ECTranslation">
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
