@@ -1,6 +1,13 @@
 <keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
+  <action id="$EditorTranslateAction">
+    <keyboard-shortcut first-keystroke="ctrl meta u" />
+    <keyboard-shortcut first-keystroke="meta i" />
+  </action>
   <action id="CopyElement" />
   <action id="ECTranslation">
+    <keyboard-shortcut first-keystroke="meta i" />
+  </action>
+  <action id="Editor EditorTranslateAction">
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
   <action id="FixDocComment">
