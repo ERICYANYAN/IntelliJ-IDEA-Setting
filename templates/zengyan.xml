@@ -28,4 +28,13 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="apidoc" value="/**&#10; * @api {$menthod$} $url$&#10; * @apiName $name$&#10; * @apiGroup $org$&#10; */&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="menthod" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="org" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
