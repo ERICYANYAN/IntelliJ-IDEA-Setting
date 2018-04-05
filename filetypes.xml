@@ -13,6 +13,7 @@
       <mapping ext="trg" type="DBN-PSQL" />
       <mapping ext="vw" type="DBN-SQL" />
       <mapping pattern="Application" type="JAVA" />
+      <mapping pattern="sd" type="PLAIN_TEXT" />
       <mapping pattern="apis" type="Python" />
       <mapping pattern="dome" type="Python" />
       <mapping pattern="models" type="Python" />
