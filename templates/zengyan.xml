@@ -42,4 +42,27 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="zae" value=" ZA.event(Action.Type.$event$)&#10;                .id($id$)&#10;                .url($fakeurl$)&#10;                .viewName(&quot;$name$&quot;)&#10;                .record();" toReformat="false" toShortenFQNames="true">
+    <variable name="event" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fakeurl" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="zacard" value=" ZA.cardShow()&#10;             .id($id$)&#10;             .url($fakeurl$)&#10;             .viewName(&quot;$name$&quot;)&#10;             .record();" toReformat="false" toShortenFQNames="true">
+    <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fakeurl" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="zapage" value="  ZA.pageShow($url$)&#10;                      .id(id)&#10;                      .url($url$)&#10;                      .record();" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
