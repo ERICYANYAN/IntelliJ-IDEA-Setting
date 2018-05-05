@@ -65,7 +65,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="za" value="public static void za$id$(){&#10;       ZA.$start$&#10;&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="za" value="public static void za$id$(){&#10;       ZA.$start$&#10;&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="start" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
