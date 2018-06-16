@@ -1,0 +1,81 @@
+<templateSet group="zengyan">
+  <template name="newInstance" value="private static $class$ instance = null;&#10;&#10;    private $class$(){}&#10;&#10;public synchronized static $class$ getInstance() {&#10;    if(instance == null){//懒汉式&#10;        instance = new $class$();&#10;    }&#10;    return instance;&#10;}&#10;" description="单例" toReformat="false" toShortenFQNames="true">
+    <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="getMap" value="Map&lt;$key$,$value$&gt; map = new HashMap&lt;$key$,$value$&gt;();" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="line" value="/**&#10; * &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;$message$&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&#10; */" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="message" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="net" value=" $service$.$menthod$($args$)&#10;         .compose(mFragment.bindLifecycleAndScheduler())&#10;         .compose(applyLoading())&#10;         .map(new NetErrorHandler&lt;$type$&gt;())&#10;         .subscribeOn(AndroidSchedulers.mainThread())&#10;         .subscribe(response -&gt; {&#10;             $callback$&#10;         }, throwable -&gt; {&#10;            handleError(throwable);&#10;         });" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="service" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="menthod" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="callback" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="apidoc" value="/**&#10; * @api {$menthod$}  $url$  $desc$&#10; * @apiVersion 0.0.1&#10; * @apiGroup $org$&#10; */" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="menthod" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="desc" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="org" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="vaild" value="if (bindingResult.hasErrors()) {&#10;    return ResultGenerator.genFailResult(bindingResult.getFieldError().getDefaultMessage());&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="zae" value=" ZA.event(Action.Type.$event$)&#10;                .id($id$)&#10;                .url($fakeurl$)&#10;                .viewName(&quot;$name$&quot;)&#10;                .record();" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="event" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fakeurl" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="zacard" value=" ZA.cardShow()&#10;             .id($id$)&#10;             .url($fakeurl$)&#10;             .viewName(&quot;$name$&quot;)&#10;             .record();" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fakeurl" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="zapage" value="  ZA.pageShow($url$)&#10;                      .id(id)&#10;                      .url($url$)&#10;                      .record();" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="za" value="public static void za$id$(){&#10;       ZA.$start$&#10;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="start" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="gettag" value="private final static String TAG = &quot;$TAG$&quot;;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="TAG" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
