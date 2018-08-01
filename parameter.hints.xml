@@ -1,9 +1,0 @@
-<application>
-  <component name="ParameterNameHintsSettings">
-    <blacklists>
-      <blacklist language="Java">
-        <added pattern="com.graduationdesign.zengyan.graduationdesignapp.ui.activities.login.LoginContact.Presenter.login(stunum,pwd,loadingView)" />
-      </blacklist>
-    </blacklists>
-  </component>
-</application>
