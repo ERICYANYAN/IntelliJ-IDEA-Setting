@@ -6,7 +6,6 @@
   <action id="DirDiffMenu.SynchronizeDiff" />
   <action id="EditorCodeBlockEndWithSelection" />
   <action id="EditorCodeBlockStartWithSelection" />
-  <action id="EditorEnter" />
   <action id="EditorSelectWord" />
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl back_slash" />
