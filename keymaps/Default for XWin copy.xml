@@ -4,7 +4,8 @@
   </action>
   <action id="Console.Execute" />
   <action id="DirDiffMenu.SynchronizeDiff" />
-  <action id="EditorChooseLookupItem" />
+  <action id="EditorCodeBlockEndWithSelection" />
+  <action id="EditorCodeBlockStartWithSelection" />
   <action id="EditorEnter" />
   <action id="EditorSelectWord" />
   <action id="Generate">
@@ -14,8 +15,16 @@
   <action id="JumpToNextChange">
     <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
   </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="alt right" />
+    <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
+  </action>
   <action id="NextTemplateVariable">
     <keyboard-shortcut first-keystroke="tab" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="alt left" />
+    <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
   </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift r" />
