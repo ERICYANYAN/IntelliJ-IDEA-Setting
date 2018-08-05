@@ -4,5 +4,25 @@
     <keyboard-shortcut first-keystroke="meta w" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="Diff.PrevChange">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="EditorCodeBlockEnd" />
+  <action id="EditorCodeBlockEndWithSelection" />
+  <action id="EditorCodeBlockStart" />
+  <action id="EditorCodeBlockStartWithSelection" />
   <action id="EditorSelectWord" />
+  <action id="JumpToLastChange">
+    <keyboard-shortcut first-keystroke="shift ctrl back_space" />
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+  </action>
+  <action id="JumpToNextChange">
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
+  </action>
 </keymap>
