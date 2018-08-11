@@ -10,6 +10,14 @@
   <action id="Editor EditorTranslateAction">
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="alt right" />
+    <keyboard-shortcut first-keystroke="ctrl right" />
+  </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="alt left" />
+    <keyboard-shortcut first-keystroke="ctrl left" />
+  </action>
   <action id="FixDocComment">
     <keyboard-shortcut first-keystroke="alt slash" />
   </action>
