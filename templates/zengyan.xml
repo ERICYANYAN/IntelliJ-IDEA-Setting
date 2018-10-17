@@ -79,7 +79,7 @@
     </context>
   </template>
   <template name="todo" value="// TODO : " description="" toReformat="false" toShortenFQNames="true" />
-  <template name="close" value="  // &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;$detail$&quot;&gt;&#10;  // &lt;/editor-fold&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="close" value="  // &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;$detail$&quot;&gt;&#10;  // &lt;/editor-fold&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="detail" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="OTHER" value="true" />
