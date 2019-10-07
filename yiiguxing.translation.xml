@@ -3,6 +3,7 @@
     <option name="lastSourceLanguage" value="AUTO" />
     <option name="lastTargetLanguage" value="ENGLISH" />
     <histories>
+      <item value="初始化 pcodes" />
       <item value="描述" />
       <item value="modular" />
       <item value="生成器" />
