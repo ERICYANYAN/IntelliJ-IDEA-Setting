@@ -85,7 +85,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="doc" value="/**&#10; * &#10; * */" shortcut="ENTER" toReformat="false" toShortenFQNames="true">
+  <template name="doc" value="/**&#10; * &#10; * */" shortcut="ENTER" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="GAUGE" value="false" />
       <option name="GROOVY" value="false" />
