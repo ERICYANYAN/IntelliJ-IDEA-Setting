@@ -85,4 +85,17 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="doc" value="/**&#10; * &#10; * */" shortcut="ENTER" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GAUGE" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="MARKDOWN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="XML" value="false" />
+      <option name="c" value="false" />
+      <option name="cpp" value="false" />
+    </context>
+  </template>
 </templateSet>
