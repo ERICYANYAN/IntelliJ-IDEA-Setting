@@ -1,0 +1,10 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="com.graduationdesign.zengyan.graduationdesignapp.ui.activities.login.LoginContact.Presenter.login(stunum,pwd,loadingView)" />
+        <added pattern="com.zhihu.android.base.util.RxBus.post(object)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
