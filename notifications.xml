@@ -1,6 +1,5 @@
 <application>
   <component name="NotificationConfiguration">
     <notification groupId="Build sync orphan modules" displayType="NONE" shouldLog="false" />
-    <notification groupId="Heap Dump Analysis" displayType="STICKY_BALLOON" shouldLog="false" />
   </component>
 </application>
