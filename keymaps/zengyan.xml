@@ -20,6 +20,9 @@
   <action id="ForceStepInto" />
   <action id="ForceStepOver" />
   <action id="HippieCompletion" />
+  <action id="ImportSettings">
+    <keyboard-shortcut first-keystroke="shift ctrl meta i" />
+  </action>
   <action id="Move" />
   <action id="NextDiff" />
   <action id="Resume">
