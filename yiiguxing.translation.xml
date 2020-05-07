@@ -1,21 +1,15 @@
 <application>
   <component name="AppStorage">
     <histories>
-      <item value="italic" />
-      <item value="process" />
-      <item value="处理" />
-      <item value="注释" />
-      <item value="认证" />
-      <item value="price" />
-      <item value="初始化 pcodes" />
-      <item value="描述" />
-      <item value="modular" />
-      <item value="生成器" />
-      <item value="Generater" />
-      <item value="合法" />
-      <item value="on Progress" />
-      <item value="Modifiers" />
-      <item value="注册" />
+      <item value="register" />
+      <item value="rigister" />
     </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="1" />
+        <entry key="ENGLISH" value="1" />
+        <entry key="HINDI" value="1" />
+      </map>
+    </option>
   </component>
 </application>
