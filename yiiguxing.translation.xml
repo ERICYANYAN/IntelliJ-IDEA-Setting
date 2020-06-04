@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="BROWSABLE" />
       <item value="引用" />
       <item value="register" />
       <item value="rigister" />
@@ -8,7 +9,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="2" />
-        <entry key="ENGLISH" value="2" />
+        <entry key="ENGLISH" value="3" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
