@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="自我介绍" />
       <item value="webview" />
       <item value="Deeplink" />
       <item value="知道" />
@@ -11,7 +12,7 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="4" />
+        <entry key="CHINESE" value="5" />
         <entry key="ENGLISH" value="5" />
         <entry key="HINDI" value="1" />
       </map>
