@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="submitted" />
+      <item value="intermediate" />
       <item value="忽略" />
       <item value="公开" />
       <item value="undefined" />
@@ -18,8 +20,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="11" />
-        <entry key="ENGLISH" value="11" />
+        <entry key="CHINESE" value="12" />
+        <entry key="ENGLISH" value="13" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
