@@ -1,25 +1,37 @@
 <application>
   <component name="AppStorage">
-    <option name="lastSourceLanguage" value="AUTO" />
-    <option name="lastTargetLanguage" value="CHINESE" />
     <histories>
-      <item value="Forward" />
-      <item value="Containerizing" />
-      <item value="商业" />
-      <item value="process" />
-      <item value="处理" />
-      <item value="注释" />
-      <item value="认证" />
-      <item value="price" />
-      <item value="初始化 pcodes" />
-      <item value="描述" />
-      <item value="modular" />
-      <item value="生成器" />
-      <item value="Generater" />
+      <item value="中断" />
+      <item value="indicate" />
+      <item value="explicitly" />
+      <item value="storage" />
+      <item value="action area" />
+      <item value="submitted" />
+      <item value="intermediate" />
+      <item value="忽略" />
+      <item value="公开" />
+      <item value="undefined" />
+      <item value="android" />
+      <item value="initiated" />
       <item value="合法" />
-      <item value="on Progress" />
-      <item value="Modifiers" />
-      <item value="注册" />
+      <item value="自我介绍" />
+      <item value="webview" />
+      <item value="Deeplink" />
+      <item value="知道" />
+      <item value="BROWSABLE" />
+      <item value="引用" />
+      <item value="register" />
+      <item value="rigister" />
     </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="16" />
+        <entry key="ENGLISH" value="16" />
+        <entry key="HINDI" value="1" />
+      </map>
+    </option>
+  </component>
+  <component name="Settings">
+    <option name="ignoreRegExp" value="" />
   </component>
 </application>

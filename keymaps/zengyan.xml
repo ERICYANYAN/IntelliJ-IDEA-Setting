@@ -7,6 +7,9 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="shift t" />
   </action>
+  <action id="Android Profiler">
+    <keyboard-shortcut first-keystroke="shift ctrl meta p" />
+  </action>
   <action id="CopyElement" />
   <action id="ECTranslation">
     <keyboard-shortcut first-keystroke="meta i" />
