@@ -1,6 +1,18 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="中断" />
+      <item value="indicate" />
+      <item value="explicitly" />
+      <item value="storage" />
+      <item value="action area" />
+      <item value="submitted" />
+      <item value="intermediate" />
+      <item value="忽略" />
+      <item value="公开" />
+      <item value="undefined" />
+      <item value="android" />
+      <item value="initiated" />
       <item value="合法" />
       <item value="自我介绍" />
       <item value="webview" />
@@ -13,10 +25,13 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="6" />
-        <entry key="ENGLISH" value="6" />
+        <entry key="CHINESE" value="16" />
+        <entry key="ENGLISH" value="16" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
+  </component>
+  <component name="Settings">
+    <option name="ignoreRegExp" value="" />
   </component>
 </application>
