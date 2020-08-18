@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Dto" />
       <item value="中断" />
       <item value="indicate" />
       <item value="explicitly" />
@@ -27,6 +28,7 @@
       <map>
         <entry key="CHINESE" value="16" />
         <entry key="ENGLISH" value="16" />
+        <entry key="FILIPINO" value="1" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
