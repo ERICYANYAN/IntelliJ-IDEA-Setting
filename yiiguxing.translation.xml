@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="距离今天" />
       <item value="堆栈" />
       <item value="关系" />
       <item value="Dto" />
@@ -28,8 +29,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="18" />
-        <entry key="ENGLISH" value="18" />
+        <entry key="CHINESE" value="19" />
+        <entry key="ENGLISH" value="19" />
         <entry key="FILIPINO" value="1" />
         <entry key="HINDI" value="1" />
       </map>
