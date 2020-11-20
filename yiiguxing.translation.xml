@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="legal" />
+      <item value="合法" />
+      <item value="发布时间" />
       <item value="蜘蛛" />
       <item value="spliter" />
       <item value="reptile" />
@@ -18,7 +21,6 @@
       <item value="wrod" />
       <item value="最新" />
       <item value="二维码" />
-      <item value="合法" />
       <item value="问题" />
       <item value="吐槽" />
       <item value="建议" />
@@ -49,13 +51,11 @@
       <item value="知道" />
       <item value="BROWSABLE" />
       <item value="引用" />
-      <item value="register" />
-      <item value="rigister" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="41" />
-        <entry key="ENGLISH" value="43" />
+        <entry key="CHINESE" value="44" />
+        <entry key="ENGLISH" value="45" />
         <entry key="FILIPINO" value="1" />
         <entry key="HINDI" value="1" />
       </map>
