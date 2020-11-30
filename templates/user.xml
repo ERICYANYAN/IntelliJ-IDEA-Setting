@@ -1,7 +1,12 @@
 <templateSet group="user">
-  <template name="za" value="ZaHelperKt.inject($)&#10;              .setActionType(com.zhihu.za.proto.proto3.biz.Action.Type.)&#10;              .setElementType(Element.Type.)&#10;              .setBlockText()&#10;              .setContentType(com.zhihu.za.proto.proto3.biz.ContentType.Type.)&#10;              .setCurrentContentId(data.accountInfo.getId())&#10;              .setViewText()&#10;              .setExtraAttachedInfo()&#10;              .setLinkUrl()&#10;              .buildZARecord();" toReformat="false" toShortenFQNames="true">
+  <template name="za" value="ZaHelperKt.inject($)&#10;              .setActionType(com.zhihu.za.proto.proto3.biz.Action.Type.)&#10;              .setElementType(com.zhihu.za.proto.proto3.biz.Element.Type.)&#10;              .setBlockText($)&#10;              .setContentType(com.zhihu.za.proto.proto3.biz.ContentType.Type.)&#10;              .setCurrentContentId($)&#10;              .setViewText($)&#10;              .setExtraAttachedInfo($)&#10;              .setLinkUrl($)&#10;              .buildZARecord();" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="zak" value="        .inject()&#10;              .setActionType(com.zhihu.za.proto.proto3.biz.Action.Type.)&#10;              .setElementType(com.zhihu.za.proto.proto3.biz.Element.Type.)&#10;              .setBlockText($)&#10;              .setContentType(com.zhihu.za.proto.proto3.biz.ContentType.Type.)&#10;              .setCurrentContentId($)&#10;              .setViewText($)&#10;              .setExtraAttachedInfo($)&#10;              .setLinkUrl($)&#10;              .buildZARecord();" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
     </context>
   </template>
 </templateSet>
