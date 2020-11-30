@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="注入" />
       <item value="FINANCE" />
       <item value="legal" />
       <item value="合法" />
@@ -50,11 +51,10 @@
       <item value="webview" />
       <item value="Deeplink" />
       <item value="知道" />
-      <item value="BROWSABLE" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="45" />
+        <entry key="CHINESE" value="46" />
         <entry key="ENGLISH" value="46" />
         <entry key="FILIPINO" value="1" />
         <entry key="HINDI" value="1" />
