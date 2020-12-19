@@ -1,8 +1,19 @@
 <application>
   <component name="AppStorage">
     <histories>
-      <item value="class Path Restart Strategy" />
-      <item value="问答" />
+      <item value="Generic" />
+      <item value="suppressed" />
+      <item value="assuming" />
+      <item value="range" />
+      <item value="can Scroll Horizontally" />
+      <item value="Sucessed" />
+      <item value="Constant" />
+      <item value="italic" />
+      <item value="Back Ground" />
+      <item value="注入" />
+      <item value="FINANCE" />
+      <item value="legal" />
+      <item value="合法" />
       <item value="发布时间" />
       <item value="蜘蛛" />
       <item value="spliter" />
@@ -21,7 +32,6 @@
       <item value="wrod" />
       <item value="最新" />
       <item value="二维码" />
-      <item value="合法" />
       <item value="问题" />
       <item value="吐槽" />
       <item value="建议" />
@@ -41,22 +51,13 @@
       <item value="action area" />
       <item value="submitted" />
       <item value="intermediate" />
-      <item value="忽略" />
-      <item value="公开" />
-      <item value="undefined" />
-      <item value="android" />
-      <item value="initiated" />
-      <item value="自我介绍" />
-      <item value="webview" />
-      <item value="Deeplink" />
-      <item value="知道" />
-      <item value="BROWSABLE" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="41" />
-        <entry key="ENGLISH" value="43" />
+        <entry key="CHINESE" value="49" />
+        <entry key="ENGLISH" value="50" />
         <entry key="FILIPINO" value="1" />
+        <entry key="PORTUGUESE" value="1" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
