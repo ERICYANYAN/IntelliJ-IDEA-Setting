@@ -229,11 +229,6 @@
           <option name="VALUES_FILTER_ENABLED" value="false" />
         </configuration>
       </debugger>
-      <debugger id="kotlin_debugger">
-        <configuration>
-          <option name="VALUES_FILTER_ENABLED" value="false" />
-        </configuration>
-      </debugger>
     </debuggers>
   </component>
 </application>
