@@ -3,6 +3,10 @@
     <keyboard-shortcut first-keystroke="ctrl meta u" />
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
+  <action id="ActivateLogcatToolWindow">
+    <keyboard-shortcut first-keystroke="meta 6" />
+  </action>
+  <action id="ActivateTODOToolWindow" />
   <action id="CopyElement" />
   <action id="Diff.NextChange">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
