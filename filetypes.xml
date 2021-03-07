@@ -9,6 +9,7 @@
       <mapping pattern="Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping ext="ftl" type="PLAIN_TEXT" />
+      <mapping ext="mql" type="SQL" />
       <mapping pattern="styles" type="XML" />
       <mapping pattern="profile_test_cardxml" type="XML" />
       <mapping pattern="profile_layout_test_cardxml" type="XML" />
