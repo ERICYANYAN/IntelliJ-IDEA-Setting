@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="coil" />
       <item value="Intercept" />
       <item value="on Intercept Touch Event" />
       <item value="Gesture" />
@@ -50,12 +51,11 @@
       <item value="吐槽" />
       <item value="建议" />
       <item value="举报" />
-      <item value="反馈" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="63" />
-        <entry key="ENGLISH" value="64" />
+        <entry key="CHINESE" value="64" />
+        <entry key="ENGLISH" value="65" />
         <entry key="FILIPINO" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="HINDI" value="1" />
