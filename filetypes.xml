@@ -8,6 +8,8 @@
       <mapping pattern="uml" type="PLAIN_TEXT" />
       <mapping pattern="Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping ext="ab" type="PLAIN_TEXT" />
+      <mapping ext="tar" type="PLAIN_TEXT" />
       <mapping ext="ftl" type="PLAIN_TEXT" />
       <mapping ext="mql" type="SQL" />
       <mapping pattern="styles" type="XML" />
