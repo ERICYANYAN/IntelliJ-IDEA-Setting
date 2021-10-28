@@ -2,19 +2,20 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*$py.class;*.hprof;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc;" />
     <extensionMap>
+      <mapping ext="webp" type="Image" />
       <mapping ext="gradle.kts" type="Kotlin" />
-      <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern=".Python" type="PLAIN_TEXT" />
       <mapping pattern="uml" type="PLAIN_TEXT" />
       <mapping pattern="Dockerfile" type="PLAIN_TEXT" />
-      <mapping pattern=".Python" type="PLAIN_TEXT" />
-      <mapping ext="ftl" type="PLAIN_TEXT" />
-      <mapping ext="tar" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping ext="ab" type="PLAIN_TEXT" />
+      <mapping ext="tar" type="PLAIN_TEXT" />
+      <mapping ext="ftl" type="PLAIN_TEXT" />
       <mapping ext="mql" type="SQL" />
-      <mapping pattern="profile_layout_test_cardxml" type="XML" />
-      <mapping pattern="profile_test_cardxml" type="XML" />
-      <mapping pattern="welcome_fragment_exit" type="XML" />
       <mapping pattern="styles" type="XML" />
+      <mapping pattern="profile_test_cardxml" type="XML" />
+      <mapping pattern="profile_layout_test_cardxml" type="XML" />
+      <mapping pattern="welcome_fragment_exit" type="XML" />
       <mapping pattern="apis" type="Python" />
       <mapping pattern="dome" type="Python" />
       <mapping pattern="models" type="Python" />
