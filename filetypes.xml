@@ -5,6 +5,7 @@
       <mapping ext="webp" type="Image" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping pattern=".Python" type="PLAIN_TEXT" />
+      <mapping pattern="xposed_init" type="PLAIN_TEXT" />
       <mapping pattern="uml" type="PLAIN_TEXT" />
       <mapping pattern="Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
